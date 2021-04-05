@@ -23,8 +23,9 @@ class MyApp extends StatelessWidget {
           primarySwatch: Colors.amber,
         ),
         home: Scaffold(
-          body: Text('Fluter Pertama'),
-        ));
+            body: SafeArea(
+          child: Text('Fluter Pertama'),
+        )));
   }
 }
 
