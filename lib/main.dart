@@ -22,7 +22,10 @@ class MyApp extends StatelessWidget {
               ],
             ),
             body: SafeArea(
-              child: Text('Fluter Pertama'),
+              child: Image(
+                image: AssetImage('assets/images/angga.jpg'),
+                height: 200,
+              ),
             )));
   }
 }
